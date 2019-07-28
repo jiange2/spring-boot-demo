@@ -10,7 +10,6 @@ public class SpringBootBaseApplication {
 
     public static void main(String[] args) {
         ApplicationContext context = SpringApplication.run(SpringBootBaseApplication.class, args);
-        System.out.println(context.getBean(DemoController.class));;
     }
 
 }
